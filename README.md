@@ -59,7 +59,7 @@ Numerous diseases co-occur more than expected by chance, likely due to a combina
 First, uniformly processed gene counts were dowloaded from the <a href="http://www.ilincs.org/apps/grein/">GREIN platform</a> and Summarized Emperiment Objects (SE) from Bioconductor were constructed for each study. Finally, SE objects corresponding to the same disease were merged (<code>merge_same_disease_se_objects.R</code>).
 
 ### RNA-seq pipeline
-Then, we applied an RNA-seq pipeline to each disease separately and in parallel (<code>run_rnaseq_pipeline_for_disease.R</code>). Then, we clustered diseases based on their significantly dysregulated pathways (<code>molecular_insight_heatmap.R</code>).
+Then, we applied an RNA-seq pipeline to each disease separately and in parallel (<code>run_rnaseq_pipeline_for_disease.R</code>). 
 
 ### DSN generation
 1. First, we computed distances between diseases (<code>Network_building/build_disease_level_network.py</code>)
