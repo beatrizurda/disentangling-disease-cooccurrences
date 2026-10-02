@@ -10,7 +10,7 @@
 # Disentangling the genetic and non-genetic origin of disease co-occurrences
 Beatriz Urda-García<a href="https://orcid.org/0000-0002-3845-5751">
 <img alt="ORCID logo" src="https://info.orcid.org/wp-content/uploads/2019/11/orcid_16x16.png" width="16" height="16" />
-Davide Cirillo<a href="https://orcid.org/0000-0002-3845-5751">
+</a>, Davide Cirillo<a href="https://orcid.org/0000-0002-3845-5751">
 <img alt="ORCID logo" src="https://info.orcid.org/wp-content/uploads/2019/11/orcid_16x16.png" width="16" height="16" />
 </a>, Alfonso Valencia<a href="https://orcid.org/0000-0002-8937-6789">
 <img alt="ORCID logo" src="https://info.orcid.org/wp-content/uploads/2019/11/orcid_16x16.png" width="16" height="16" />
