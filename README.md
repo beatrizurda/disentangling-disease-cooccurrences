@@ -81,6 +81,7 @@ Then, we applied an RNA-seq pipeline to each disease separately and in parallel 
 2. Use the generated distances to obtain the Disease Similarity Network (DSN) (<code>generating_networks.R</code>)
 3. Compute the overlap of the DSN with the epidemiological network from Hidalgo et al. (<code>network_overlap_SSN.R</code>) and Dong et al. (<code>overlap_dong.R</code>)
 
-### Further analyses
+### Analyses and comparison of transcriptomic, genomic, epidemiological and heritability data
 1. Topological analyses of the networks (network_topological_analysis.R)
-2. Heritability analyses (heritability.R)
+2. Integrating transcriptomic, genomic, and epidemiological data to disentangle genetic and non-genetic components of disease co-occurrences (<code>comparing_with_genomics.R</code>)
+3. Heritability analyses (heritability.R)
