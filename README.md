@@ -70,14 +70,15 @@ Then, we applied an RNA-seq pipeline to each disease separately and in parallel 
 2. Run the RNA-seq pipeline at the icd9 level (<code>run_rnaseq_pipeline_for_disease.R</code>)
 3. Compute distances between diseases (<code>build_ICD_level_network.R</code>)
 4. Use the obtained distances to generate the ICD9 level DSN network (<code>generating_networks.R</code>)
-5. Compute the overlap with the epidemiological network from Hidalgo et al. and Dong et al. (<code>network_overlap_icd.R</code>)
+5. Compute the overlap with the epidemiological network from Hidalgo et al. (<code>network_overlap_icd.R</code>) and Dong et al. (<code>overlap_dong.R</code>)
 
 ### Meta-patient definition and characterization. 
 1. We used PAM and WARD algorithms to define meta-patients for each disease (groups of patients with a similar expression profile) (<code>defining_meta_patients.R</code>)
 2. Then, we applied the RNA-seq pipeline for each meta-patient (<code>DEanalysis_for_metapatients.R</code>)
 
 ### SSN generation, analysis and overlap computation
-1. First, we computed distances between diseases (<code>Network_building/build_metapatient_disease_network.py</code>)
-2. We used the generated distances to obtain the Disease Similarity Network (DSN) (<code>generating_networks.R</code>)
-3. We computed the overlap of the DSN with the epidemiological network from Hidalgo et al. and Dong et al.(<code>network_overlap_SSN.R</code>)
+1. Compute the distances between diseases (<code>Network_building/build_metapatient_disease_network.py</code>)
+2. Use the generated distances to obtain the Disease Similarity Network (DSN) (<code>generating_networks.R</code>)
+3. Compute the overlap of the DSN with the epidemiological network from Hidalgo et al. (<code>network_overlap_SSN.R</code>) and Dong et al. (<code>overlap_dong.R</code>)
+
 
